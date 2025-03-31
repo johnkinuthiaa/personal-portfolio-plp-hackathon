@@ -1,0 +1,131 @@
+/* make width for the whole app to be 80% */
+:root{
+    width: 80%;
+    margin: 0 auto; 
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* reset the css */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 80%;
+    margin: 0 auto;
+    position:fixed;
+    top: 0;
+    padding-top: 10px;
+    backdrop-filter: blur(20px);
+    opacity: 0.8;
+}
+header>nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.profile__container>img{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 80px;
+    width: 80px;
+}
+.navigation_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:15px
+}
+
+.navigation_links>a,
+.contact_button>a{
+    text-decoration: none;
+    color: rgb(255,255,255,0.7);
+}
+
+
+.navigation_links>a:hover,
+.contact_button>a:hover,
+.introduction__section__buttons>button
+{
+    cursor: pointer;
+    color: rgb(255,255,255);
+}
+.contact_button,
+.introduction__section__buttons>button{
+    padding: 6px 8px;
+    outline:none;
+    border:1px solid gray;
+    border-radius:5px;
+    background: #000;
+}
+@media screen and (max-width: 730px) {
+    .desktop__navigation,.contact_button{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 730px) {
+    .menu__button{
+        display: none;
+    }
+}
+#main__page{
+    color: rgb(20, 137, 240);
+    margin-top: 150px;
+}
+.introduction__section{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 18px;
+}
+.introduction__section__image{
+    border: 1px dashed goldenrod;
+    width: fit-content;
+}
+.introduction__section__image>img{
+    height: 90px;
+    width: 90px;
+    padding: 10px;
+    object-fit: cover;
+}
+
+.introduction__section__buttons{
+    display: flex;
+    gap:5px;
+    justify-content: space-between;
+}
+.get_in_touch_button{
+    border: none;
+    background:rgb(255,255,255) !important;
+    color: #000 !important;
+}
+.get_in_touch_button:hover{
+    background-color:rgb(255,255,255,0.8) !important;
+}
+/* contribution section */
+.github-contribution{
+    width: 80%;
+    margin-top: 70px;
+    align-items: center;
+    display: flex;
+}
+.github-calendar>img{
+    width: 80%;
+    
+}
+@media screen and (max-width:768px) {
+    .github-contribution{
+        width: 100%;
+    }
+    .github-calendar>img{
+        width: 100%;
+        height: 100%;
+    }
+}

@@ -19,8 +19,8 @@ header{
     position:fixed;
     top: 0;
     padding-top: 10px;
-    backdrop-filter: blur(20px);
-    opacity: 0.8;
+    backdrop-filter: blur(50px);
+    opacity: 0.9;
 }
 header>nav{
     display:flex;
@@ -76,7 +76,7 @@ a{
     }
 }
 #main__page{
-    color: rgb(20, 137, 240);
+    color: #ffff;
     margin-top: 150px;
     scroll-behavior: smooth;
 }
@@ -174,9 +174,9 @@ a{
     align-items: center;
     display: flex;
     flex-direction:column;
-    border:2px solid blue;
+    border:1px solid rgb(255,255,255,0.2);
     gap:20px;
-    backdrop-filter: blur(5px);
+    padding: 10px;
 }
 .github-calendar>img{
     width: 100%;
@@ -199,13 +199,10 @@ a{
     justify-content: space-between;
     align-items:center;
     padding:10px;
-    border:2px solid blue;
+    border:1px solid rgb(255,255,255,0.2);
 }
 .newsletter>*{
     padding: 10px;
-}
-.readers{
-    width: 50%;
 }
 .newsletter__register{
     width: 60%;
@@ -213,7 +210,7 @@ a{
 }
 .newsletter__register>form{
     padding: 10px;
-    width: 100%;
+    width: 80%;
 }
 .newsletter__register>form>*{
     padding: 10px;
@@ -231,9 +228,10 @@ a{
 .newsletter__register>form>button:hover{
     color:rgb(255,255,255,0.5);
 }
-input[type="text"]{
+.newsletter__register>form>input[type="text"]{
     background-color:#000;
     color:rgb(255,255,255);
+    width: 60%;
 }
 
 input[type="text"]:focus{
@@ -265,7 +263,7 @@ footer{
     display:flex;
     justify-content:space-between ;
     margin-top:60px;
-    margin-bottom: 30px;
+    margin-bottom: 20%;
     flex-direction: column;
 }
 .footer__content{

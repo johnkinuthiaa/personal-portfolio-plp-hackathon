@@ -2,14 +2,19 @@
     display: flex;
     flex-wrap: wrap;
     padding: 10px;
-    width: 90%;
+    width: 80%;
+    margin:20px auto;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 20px; */
 }
 .project__container>div{
     width: 50%;
     display: flex;
     gap:4px;
-    margin: 15px 0 10px 0;
+    padding: 10px;
     flex-direction: column;
+    border:1px solid rgb(255,255,255,0.3)
 }
 
 #github__button{
@@ -18,11 +23,11 @@
     cursor:pointer;
     font-weight: bold;
     color:black !important;
+    width: fit-content;
 }
 .project__container>div>h1{
     margin-bottom: 10px;
 }
 .project__description{
-    font-size: medium !important;
-    font-weight: 400 !important;
+    line-height: 1.5;
 }

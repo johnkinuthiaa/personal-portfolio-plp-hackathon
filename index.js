@@ -1,11 +1,3 @@
-let info =document.getElementById("info")
-const project =()=>{
-
-    return`
-    <div>
-    content
-        <div>another content</div>
-    </div>
-    `
-}
-info.innerHTML +=project()
+const metaData =document.getElementById("date")
+const year =new Date().getFullYear()
+metaData.innerHTML +=`<div>${year} &copy John Kinuthia .&copy Nevani ACME. All Rights Reserved</>`

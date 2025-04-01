@@ -113,6 +113,31 @@ a{
 /* currently */
 .currently__section{
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+.currently__section__text{
+    width: 50%;
+    word-break: break-all;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.currently__section__project__description{
+    margin-top: 40px;
+    font-size: 16px;
+}
+.currently__section__text>p{
+    width: 80%;
+    margin-top: 20px;
+}
+.currently__section__image{
+    width: 50%;
+}
+.currently__section__image>img{
+    width: 100%;
+    object-fit:fill;
 }
 /* contribution activity */
 .contribution_section{

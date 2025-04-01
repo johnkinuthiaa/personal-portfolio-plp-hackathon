@@ -1,0 +1,43 @@
+.about__me__introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    border: 1px solid rgb(255,255,255,0.2);
+    padding:80px;
+    border-radius: 8px;
+    gap: 10px;
+    text-align: center;
+}
+.about__me__introduction>p{
+    font-size: large;
+}
+.about__me__introduction>h1{
+    font-size: 30px;
+}
+.information_about_me{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin: 60px auto;
+   
+}
+.information_about_me>*{
+    border: 1px solid rgb(255,255,255,0.2);
+    padding: 10px;
+    flex:0.5;
+}
+.information_about_me>div{
+    width: 100%;
+}
+.information_about_me>div>img{
+    border-radius: 10px;
+}
+.information_about_me{
+    line-height: 2;
+    kerning: 10ch;
+}
+.information_about_me>div>p{
+    width: 80%;
+}

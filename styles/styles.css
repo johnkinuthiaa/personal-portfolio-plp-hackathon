@@ -78,12 +78,31 @@ a{
 #main__page{
     color: rgb(20, 137, 240);
     margin-top: 150px;
+    scroll-behavior: smooth;
 }
 .introduction__section{
     display: flex;
     flex-direction: column;
     align-items:center;
     gap: 18px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+.introduction__section__about__me{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    gap: 10px;
+    line-height: 1.5;
+    font-size: medium;
+    font-weight: 600;
+    margin: 10px 0 20px 0;
+    
+}
+.introduction__section__about__me>h1{
+    text-align: center;
 }
 .introduction__section__image{
     border: 1px dashed goldenrod;
@@ -104,11 +123,8 @@ a{
 
 .get_in_touch_button{
     border: none;
-    background:rgb(255,255,255) !important;
+    /* background-color:rgb(255,255,255) !important; */
     color: #000 !important;
-}
-.get_in_touch_button:hover{
-    background-color:rgb(255,255,255,0.8) !important;
 }
 /* currently */
 .currently__section{
@@ -179,10 +195,14 @@ a{
 .newsletter{
     display:flex;
     margin-top: 50px;
+    margin-bottom: 50px;
     justify-content: space-between;
     align-items:center;
     padding:10px;
     border:2px solid blue;
+}
+.newsletter>*{
+    padding: 10px;
 }
 .readers{
     width: 50%;

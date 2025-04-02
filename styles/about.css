@@ -5,7 +5,7 @@
     justify-content: center;
     width: 80%;
     margin: 0 auto;
-    border: 1px solid rgb(255,255,255,0.2);
+    border: 1px solid rgb(219, 211, 211,0.2);
     padding:80px;
     border-radius: 8px;
     gap: 10px;
@@ -25,7 +25,7 @@
    
 }
 .information_about_me>*{
-    border: 1px solid rgb(255,255,255,0.2);
+    border: 1px solid rgb(219, 211, 211,0.2);
     padding: 10px;
     flex:0.5;
 }

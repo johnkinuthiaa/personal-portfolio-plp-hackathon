@@ -131,7 +131,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## Contact
 
-[Your Name] - [@your_twitter](https://twitter.com/your_username) - your.email@example.com
+[John kinuthia] - [Twitter](https://twitter.com/) - johnkinuthia477@gmail.com
+
 
 Project Link: [https://github.com/johnkinuthiaa/personal-portfolio-plp-hackathon](https://github.com/johnkinuthiaa/personal-portfolio-plp-hackathon)
 

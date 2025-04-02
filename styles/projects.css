@@ -8,13 +8,18 @@
     justify-content: center;
     /* margin-top: 20px; */
 }
-.project__container>div{
+.project__container>*{
     width: 50%;
     display: flex;
     gap:4px;
     padding: 10px;
     flex-direction: column;
-    border:1px solid rgb(255,255,255,0.3)
+    border:1px solid rgb(219, 211, 211,0.2);
+}
+.project__card>img{
+    max-height: 583px;
+    height: 553px;
+    object-fit:contain;
 }
 
 #github__button{

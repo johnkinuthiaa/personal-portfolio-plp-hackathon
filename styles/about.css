@@ -11,6 +11,18 @@
     gap: 10px;
     text-align: center;
 }
+.about_me_list{
+    padding: 4px;
+    line-height: 1.5;
+    font-kerning: auto;
+}
+.about_me_list>li{
+    color: rgb(219, 211, 211);
+}
+.about_me_list>h3{
+    margin: 10px 0 10px 0;
+    text-decoration: underline;
+}
 .about__me__introduction>p{
     font-size: large;
 }

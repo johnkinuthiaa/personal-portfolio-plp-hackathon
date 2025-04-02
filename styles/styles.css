@@ -120,7 +120,15 @@ a{
     font-size: medium;
     font-weight: 600;
     margin: 10px 0 20px 0;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
     
+}
+.introduction__section__about__me>p{
+    color: rgb(219, 211, 211);
+    width: 90%;
+    line-height: 1.5;
 }
 .introduction__section__about__me>h1{
     text-align: center;
@@ -153,10 +161,12 @@ a{
     justify-content: space-between;
     align-items: flex-start;
     margin-top: 50px;
+    border: 1px solid rgb(219, 211, 211,0.2);
+    padding:10px;
+    border-radius: 10px;
 }
 .currently__section__text{
     width: 50%;
-    word-break: break-all;
     display: flex;
     flex-direction: column;
     justify-content: space-between;

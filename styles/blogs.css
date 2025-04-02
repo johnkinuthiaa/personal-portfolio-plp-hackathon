@@ -1,0 +1,7 @@
+.readers>h2,.newsletter__readers{
+    color: white;
+}
+#project__container{
+    flex-direction: column;
+    width:100%;
+}

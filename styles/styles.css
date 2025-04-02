@@ -269,14 +269,24 @@ input[type="text"]:focus{
     background-color: #000;
     border:1px solid gray;
 }
+.readers>h2,.newsletter__readers{
+    color: white;
+}
+#project__container{
+    flex-direction: column;
+    width:100%;
+}
 /* footer section */
 footer{
-    color:aliceblue;
+    color:white;
     display:flex;
     justify-content:space-between ;
     margin-top:60px;
     margin-bottom: 10%;
     flex-direction: column;
+}
+.footer__content>h4{
+    color:white !important; 
 }
 .footer__content{
     display:flex;

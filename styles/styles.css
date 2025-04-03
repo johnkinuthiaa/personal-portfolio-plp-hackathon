@@ -19,8 +19,9 @@ header{
     position:fixed;
     top: 0;
     padding-top: 10px;
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(100px);
     opacity: 0.9;
+    background-color: #000;
 }
 header>nav{
     display:flex;
@@ -69,14 +70,16 @@ a{
 }
 .bottom__navigation{
     position:fixed;
-    top:90vh;
+    top:92vh;
+    scroll-snap-type: mandatory;
     z-index: 999;
-    backdrop-filter: blur(50px);
+    opacity: 1 !important;
     color: rgb(255,255,255) !important;
     border-radius: 30px;
     width: 100%;
     padding:10px;
     align-items: center;
+    background-color: #000 !important;
 
     background-color: rgb(255,255,255,0.2) !important;
 }

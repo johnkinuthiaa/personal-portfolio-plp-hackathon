@@ -8,14 +8,14 @@
 
 <br />
 <div align="center">
-  <img src="images/portfolio-logo.png" alt="Portfolio Logo" width="80" height="80">
+  <img src="https://i.pinimg.com/736x/99/9f/6e/999f6e48bd774113c2bd0b9a2c23f813.jpg" alt="Portfolio Logo" width="100" height="100">
 
   <h3 align="center">Personal Portfolio - John kinuthia</h3>
 
   <p align="center">
     A Perfectly crafted personal portfolio, built with clean HTML, styled with elegant CSS, and enhanced with some minimal JavaScript interactions. This project serves as a comprehensive showcase of my skills, projects, and professional journey, designed to provide a seamless and engaging user experience.
     <br />
-    <a href="not yet"><strong>View Live Demo »</strong></a>
+    <a href="https://johnkinuthiaportfolio.vercel.app/"><strong>View Live Demo »</strong></a>
     <br />
     <br />
     <a href="https://github.com/johnkinuthiaa/personal-portfolio-plp-hackathon/issues/new?labels=bug&template=bug-report---.md">Report a Bug</a>

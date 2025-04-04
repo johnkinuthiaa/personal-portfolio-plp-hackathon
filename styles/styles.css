@@ -1,7 +1,7 @@
 /* make width for the whole app to be 80% */
 :root{
     width: 80%;
-    margin: 0 auto; 
+    margin: 0 auto;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
 
@@ -361,6 +361,7 @@ footer{
         width: 98%;
         margin-bottom: 30px;
     }
+    
     .contribution_section,
     .contribution_activity,
     .contribution_activity>img,

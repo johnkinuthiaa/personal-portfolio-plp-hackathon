@@ -54,6 +54,37 @@
 .information_about_me>div>p{
     width: 80%;
 }
+/* books section */
+#books{
+    margin:0 auto;
+    border: 1px solid rgb(219, 211, 211,0.2);
+    padding: 10px;
+}
+.books__container{
+    display: flex;
+    flex-wrap:wrap;
+    margin: 20px 0 20px 0;
+    border: 1px solid rgb(219, 211, 211,0.3);
+    width: 100%;
+}
+.book{
+    gap:10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(219, 211, 211,0.2);
+    text-align: center;
+    margin-top: 20px;
+    padding:10px;
+    font-size: large;
+    font-weight: 700;
+}
+.book>img{
+    height: 627px;
+    width:477px;
+}
+#youDontKnowJs{
+    object-fit: cover;
+}
 @media screen and (max-width:678px){
     .readers>h2,.newsletter__readers{
         color: white;
@@ -76,4 +107,17 @@
         width: 100%;
         height: 100%;
     }
+    .book>img{
+        height: 45vh;
+        width:45vh;
+    }
+    
 }
+@media(prefers-reduced-motion: no-preference) {
+    @supports (animation-timeline: scroll()){
+      .book>img {
+        animation: fade-in ease;
+        animation-timeline: scroll();
+      }
+    }
+  }

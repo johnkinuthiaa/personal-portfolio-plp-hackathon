@@ -10,6 +10,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="/styles/indexPageAnimations.css">
+    <link rel="stylesheet" href="styles/funnyCandleAnimation.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
@@ -48,9 +50,9 @@
                         <span class="material-symbols-outlined">construction</span><span>Projects</span>
                     </div>
                 </a>
-                <a href="/pages/blog.html" id="blogs">
+                <a href="/pages/contact.html" id="blogs">
                     <div class="navigation_links_container">
-                        <span class="material-symbols-outlined">local_library</span><span>Blogs</span>
+                        <span class="material-symbols-outlined">call</span><span>Contact</span>
                     </div>
                 </a>
                 <a href="/pages/stack.html" id="stack" >
@@ -74,18 +76,21 @@
             <p class="my_name">John Kinuthia</p>
             <div class="introduction__section__about__me">
                 <h1>Kenyan based software developer</h1>
+                <div id="container">
+                    Making
+                    <div id="flip">
+                      <div><div>wOrK</div></div>
+                      <div><div>Software</div></div>
+                      <div><div>Everything</div></div>
+                    </div>
+                    AweSoMe!
+                  </div>
                 <p>
                     I'm a fullstack developer with a passion for building robust and efficient applications.
                     My expertise spans Spring Boot for backend architecture and API development, modern JavaScript frameworks like React and Next.js
                     (using TypeScript), and database management with MySQL. I prioritize clean, scalable designs, and implement strong security practices
-                    with OAuth2 and Spring Security. As the founder of Nevani Acme, I take ownership of the entire development lifecycle.
-                    During rest day(if any), I enjoy gaming, reading tech blogs, and exploring documentaries. (Vim enthusiast and coffee aficionado.)
-                </p>
-                <p>
-                    When I'm not coding,i work as graphic designer and i have a deep specialisation in the design of digital products and user experiences.
-                    I base my design method on the valorisation of the complexity that each project contains within itself, on its cultural value and on the simplicity 
-                    of the solutions that that complexity determines. Exactness and essentiality, logic and rigour, expressiveness and colour are the guiding values
-                    I rely on to approach the choices each project requires.
+                    with OAuth2 and Spring Security <span class="vim">I use vim btw!</span> . As the founder of Nevani Acme, I take ownership of the entire development lifecycle.
+                    During rest day(if any), I enjoy gaming, reading tech blogs, and exploring documentaries.
                 </p>
                 <p>
                     I despise the word creativity - better: I am suspicious of its use. Due to my training and design philosophy, I tend to pay a lot of attention to the
@@ -95,7 +100,7 @@
             </div>
             <div class="introduction__section__buttons">
                 <button> <a href="/pages/projects.html">view my work</a></button>
-                <button class="get_in_touch_button"><a href="/pages/contact.html">Get in touch</a></button>
+                <button class="get_in_touch_button" id="get_in_touch_button"><a href="/pages/contact.html">Get in touch</a></button>
             </div>
         </section>
         <section class="currently__section">
@@ -131,6 +136,45 @@
                     src="/assets/projects/learningManagementSystem.png" 
                     alt="image">
             </div>
+        </section>
+        <section class="funny__candle_animation">
+            <div class="wrapper">
+                <div class="candles">
+                  <div class="light__wave"></div>
+                  <div class="candle1">
+                    <div class="candle1__body">
+                      <div class="candle1__eyes">
+                        <span class="candle1__eyes-one"></span>
+                        <span class="candle1__eyes-two"></span>
+                      </div>
+                      <div class="candle1__mouth"></div>
+                    </div>
+                    <div class="candle1__stick"></div>
+                  </div>
+                  
+                  <div class="candle2">
+                    <div class="candle2__body">
+                      <div class="candle2__eyes">
+                        <div class="candle2__eyes-one"></div>
+                        <div class="candle2__eyes-two"></div>
+                      </div>
+                    </div>
+                    <div class="candle2__stick"></div>
+                  </div>
+                  <div class="candle2__fire"></div>
+                  <div class="sparkles-one"></div>
+                  <div class="sparkles-two"></div>
+                  <div class="candle__smoke-one">
+              
+                  </div>
+                  <div class="candle__smoke-two">
+              
+                  </div>
+                  
+                </div>
+                <div class="floor">
+                </div>
+              </div>
         </section>
         <section class="contribution_section">
             <h3>My Contibutions over time</h3>

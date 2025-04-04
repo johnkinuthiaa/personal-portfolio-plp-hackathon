@@ -2,7 +2,7 @@
     background-color: #FFF;
     animation: change-background 3s infinite linear;
     position: relative;
-    width: 95%;
+    width: 90%;
   }
   
   .wrapper {
@@ -16,7 +16,7 @@
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 350px;
+    width:300px;
     height: 5px;
     background: #673C63;
     transform: translate(-50%, -50%);

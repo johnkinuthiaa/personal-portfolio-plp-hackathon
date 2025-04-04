@@ -332,6 +332,9 @@ footer{
     .main__page{
         display: flex;
         flex-direction: column;
+        height: 98vh;
+        overflow: scroll;
+        scrollbar-width: thin;
     }
     .introduction__section__about__me{
         flex-direction: column;

@@ -2,6 +2,7 @@
     background-color: #FFF;
     animation: change-background 3s infinite linear;
     position: relative;
+    width: 95%;
   }
   
   .wrapper {

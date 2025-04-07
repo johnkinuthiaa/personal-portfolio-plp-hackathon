@@ -54,6 +54,21 @@
 .information_about_me>div>p{
     width: 80%;
 }
+
+/* download cv button */
+#download__cv{
+    padding:10px 20px;
+    border-radius: 5px;
+    border:none;
+    outline:none;
+    color:rgb(0,0,0);
+    cursor:pointer;
+}
+#download__cv>*{
+    color:rgb(0,0,0) !important;
+    font-weight:bold;
+}
+
 /* books section */
 #books{
     margin:0 auto;
